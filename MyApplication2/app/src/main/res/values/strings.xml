@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">LOGIN</string>
+    <string name="faq">FAQ</string>
+    <string name="hint1">ID</string>
+    <string name="hint2">Password</string>
+</resources>

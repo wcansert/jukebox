@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="111dp"
+        android:layout_height="145dp"
+        app:layout_constraintBottom_toTopOf="@+id/InputID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/InputID"
+        android:layout_width="264dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:width="48dp"
+        android:height="48dp"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="@string/hint1"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/opacity"
+        android:textColorHint="@color/opacity"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <EditText
+        android:id="@+id/InputPassword"
+        android:layout_width="264dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:width="48dp"
+        android:height="49dp"
+        android:background="@drawable/button"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="@string/hint2"
+        android:inputType="textPersonName|textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/opacity"
+        android:textColorHint="@color/opacity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="126dp"
+        android:backgroundTint="@color/sec1"
+        android:fontFamily="@font/rubik"
+        android:text="@string/login"
+        app:cornerRadius="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+    <Button
+        android:id="@+id/faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:width="126dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/rubik"
+        android:text="@string/faq"
+        app:cornerRadius="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubikb"
+        android:text="JUKEBOX"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="@font/rubik"
+        android:text="If you don't have an account, please Sign Up here."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/rubik"
+        android:text="Forgot your password?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
