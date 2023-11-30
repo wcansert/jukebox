@@ -1,6 +1,6 @@
 # Jukebox
 
- an automate for voting music in local places.
+ an automation for voting music in local places.
 
  this repository includes initial mobile application for jukebox and a project website which is 
 
